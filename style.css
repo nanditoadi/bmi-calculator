@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url("https://digitshack.com/codepen/bmical/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.box {
+  background: #fafafa;
+  border-radius: 20px;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.content {
+  padding: 15px;
+}
+
+.input {
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.input label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #4f7df9;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  padding: 5px 0;
+  outline: none;
+}
+
+button#calculate {
+  background: #4f7df9;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button#calculate:hover {
+  background: #0033cc;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f7df9;
+  background-color: #eaeaea;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  min-width: 80px;
+  text-align: center;
+}
+
+#comment {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4f7df9;
+  min-height: 24px;
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
