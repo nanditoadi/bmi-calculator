@@ -22,7 +22,7 @@ body {
 }
 
 .box {
-  background: #fafafa;
+  background: #f0f0f0;
   border-radius: 20px;
   text-align: center;
   padding: 25px;
@@ -36,6 +36,22 @@ h1 {
 
 .content {
   padding: 15px;
+  background-color: #b3b3b3;
+}
+
+.metric {
+  display: inline-block;
+  background-color: #b500af;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.imperial {
+  display: inline-block;
+  background-color: #fb00f3;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .input {
