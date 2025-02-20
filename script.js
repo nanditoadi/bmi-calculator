@@ -20,6 +20,6 @@ document.getElementById("calculate").addEventListener("click", function() {
     } else if (bmi < 29.9) {
         commentElement.textContent = "Komentar: Berat badan berlebih, olahraga king.";
     } else {
-        commentElement.textContent = "Komentar: Obesitas, nt nt king.";
+        commentElement.textContent = "Komentar: Obesitas, ntnt king.";
     }
 });
