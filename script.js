@@ -1,3 +1,19 @@
+document.getElementById("imperial").addEventListener("click", function() {
+    changeImperialTinggi = document.getElementById("tinggiLabel")
+    changeImperialBerat = document.getElementById("beratLabel")
+
+    changeImperialTinggi.textContent = "Tinggi (inch)";
+    changeImperialBerat.textContent = "Berat (lbs)";
+});
+
+document.getElementById("metric").addEventListener("click", function() {
+    changeMetricTinggi = document.getElementById("tinggiLabel")
+    changeMetricBerat = document.getElementById("beratLabel")
+
+    changeMetricTinggi.textContent = "Tinggi (cm)";
+    changeMetricBerat.textContent = "Berat (kg)";
+});
+
 document.getElementById("calculate").addEventListener("click", function() {
     const tinggi = parseFloat(document.getElementById("tinggi").value) / 100;
     const berat = parseFloat(document.getElementById("berat").value);
@@ -22,19 +38,4 @@ document.getElementById("calculate").addEventListener("click", function() {
     } else {
         commentElement.textContent = "Komentar: Obesitas, ntnt king.";
     }
-});
-
-const changeImperialTinggi = document.getElementById("tinggi")
-const changeImperialBerat = document.getElementById("berat")
-const changeMetricTinggi = document.getElementById("tinggi")
-const changeMetricBerat = document.getElementById("tinggi")
-
-document.getElementById("imperial").addEventListener("click", function() {
-    changeImperialTinggi.textContent = "Tinggi (inch)";
-    changeImperialBerat.textContent = "Berat (lbs)";
-});
-
-document.getElementById("metric").addEventListener("click", function() {
-    changeImperialTinggi.textContent = "Tinggi (cm)";
-    changeImperialBerat.textContent = "Berat (kg)";
 });
