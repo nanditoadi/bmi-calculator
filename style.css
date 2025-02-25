@@ -39,19 +39,12 @@ h1 {
   background-color: #b3b3b3;
 }
 
-.metric {
+.metricclass {
   display: inline-block;
-  /* background-color: #b500af;
-  border-radius: 10px;
-  padding: 5px;
-  margin-bottom: 5px; */
 }
 
-.imperial {
+.imperialclass {
   display: inline-block;
-  /* background-color: #fb00f3;
-  border-radius: 10px;
-  padding: 5px; */
 }
 
 .input {
@@ -79,6 +72,40 @@ h1 {
   font-family: "Nunito", sans-serif;
   padding: 5px 0;
   outline: none;
+}
+
+button#metric {
+  background: #4f7df9;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  margin: 5px;
+  display: inline;
+}
+
+button#metric:hover {
+  background: #0033cc;
+}
+
+button#imperial {
+  background: #4f7df9;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  margin: 5px;
+  display: inline;
+}
+
+button#imperial:hover {
+  background: #0033cc;
 }
 
 button#calculate {
