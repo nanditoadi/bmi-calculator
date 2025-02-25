@@ -41,17 +41,17 @@ h1 {
 
 .metric {
   display: inline-block;
-  background-color: #b500af;
+  /* background-color: #b500af;
   border-radius: 10px;
   padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 5px; */
 }
 
 .imperial {
   display: inline-block;
-  background-color: #fb00f3;
+  /* background-color: #fb00f3;
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px; */
 }
 
 .input {
